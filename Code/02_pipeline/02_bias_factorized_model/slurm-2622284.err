@@ -1,0 +1,29 @@
+Lmod Warning:
+-------------------------------------------------------------------------------
+The following dependent module(s) are not currently loaded:
+zlib-ng/2.1.5-g64y7ia (required by: gcc/8.2.0)
+-------------------------------------------------------------------------------
+
+
+
+
+The following have been reloaded with a version change:
+  1) cuda/11.2.0 => cuda/11.2.2
+  2) libiconv/1.17-b47av4d => libiconv/1.17-oygrtg5
+  3) libxml2/2.10.3 => libxml2/2.13.5-ftxdjfd
+  4) xz/5.4.1 => xz/5.4.6-anmq7m4
+  5) zlib-ng/2.1.5-g64y7ia => zlib-ng/2.2.3-sp4tqsg
+
+2026-05-28 16:02:28.370784: I tensorflow/core/platform/cpu_feature_guard.cc:151] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-05-28 16:02:29.806239: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1525] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 38328 MB memory:  -> device: 0, name: NVIDIA A100-PCIE-40GB, pci bus id: 0000:85:00.0, compute capability: 8.0
+2026-05-28 16:02:33.309458: I tensorflow/stream_executor/cuda/cuda_dnn.cc:368] Loaded cuDNN version 8100
+No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2026-05-28 16:06:17.400621: I tensorflow/stream_executor/cuda/cuda_blas.cc:1786] TensorFloat-32 will be used for the matrix multiplication. This will only be logged once.
+WARNING:tensorflow:Callback method `on_train_batch_end` is slow compared to the batch time (batch time: 0.0669s vs `on_train_batch_end` time: 0.0732s). Check your callbacks.
+WARNING:tensorflow:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+RuntimeError: module compiled against API version 0x10 but this version of numpy is 0xf . Check the section C-API incompatibility at the Troubleshooting ImportError section at https://numpy.org/devdocs/user/troubleshooting-importerror.html#c-api-incompatibility for indications on how to solve this problem .
+2026-05-28 17:42:35.876059: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1525] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 38328 MB memory:  -> device: 0, name: NVIDIA A100-PCIE-40GB, pci bus id: 0000:85:00.0, compute capability: 8.0
+WARNING:tensorflow:From /ihome/djishnu/aaf92/.conda/envs/chrombpnet_v2/lib/python3.8/site-packages/shap/explainers/deep/deep_tf.py:140: The name tf.keras.backend.get_session is deprecated. Please use tf.compat.v1.keras.backend.get_session instead.
+
