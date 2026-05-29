@@ -1,0 +1,24 @@
+Lmod Warning:
+-------------------------------------------------------------------------------
+The following dependent module(s) are not currently loaded:
+zlib-ng/2.1.5-g64y7ia (required by: gcc/8.2.0)
+-------------------------------------------------------------------------------
+
+
+
+
+The following have been reloaded with a version change:
+  1) cuda/11.2.0 => cuda/11.2.2
+  2) libiconv/1.17-b47av4d => libiconv/1.17-oygrtg5
+  3) libxml2/2.10.3 => libxml2/2.13.5-ftxdjfd
+  4) xz/5.4.1 => xz/5.4.6-anmq7m4
+  5) zlib-ng/2.1.5-g64y7ia => zlib-ng/2.2.3-sp4tqsg
+
+RuntimeError: module compiled against API version 0x10 but this version of numpy is 0xf . Check the section C-API incompatibility at the Troubleshooting ImportError section at https://numpy.org/devdocs/user/troubleshooting-importerror.html#c-api-incompatibility for indications on how to solve this problem .
+2026-05-29 11:51:59.015036: I tensorflow/core/platform/cpu_feature_guard.cc:151] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-05-29 11:51:59.759602: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1525] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 38217 MB memory:  -> device: 0, name: NVIDIA A100-PCIE-40GB, pci bus id: 0000:c7:00.0, compute capability: 8.0
+WARNING:tensorflow:From /ihome/djishnu/aaf92/.conda/envs/chrombpnet_v2/lib/python3.8/site-packages/shap/explainers/deep/deep_tf.py:140: The name tf.keras.backend.get_session is deprecated. Please use tf.compat.v1.keras.backend.get_session instead.
+
+2026-05-29 11:52:43.365424: I tensorflow/stream_executor/cuda/cuda_dnn.cc:368] Loaded cuDNN version 8100
+2026-05-29 11:52:45.009627: I tensorflow/stream_executor/cuda/cuda_blas.cc:1786] TensorFloat-32 will be used for the matrix multiplication. This will only be logged once.
